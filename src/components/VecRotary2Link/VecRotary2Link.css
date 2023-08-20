@@ -1,0 +1,223 @@
+   
+#rotary2button{
+    display: block;
+      background-color: transparent;
+      border-style: none;
+      overflow: visible;
+      position: relative;
+      padding: 0;
+   }
+   
+   #svgrotary2button{
+      height: 100%;
+      width: 100%;
+      display: block;
+   
+      overflow: visible;
+   }
+   
+   
+   #groupOfParts-rotary2button{
+      cursor:pointer;
+   }
+   
+   
+   #rotatingPiece1-rotary2button{
+      -webkit-transform: translate(4.691px,4.691px );
+          -ms-transform: translate(4.691px,4.691px );
+              transform: translate(4.691px,4.691px )
+   }
+   #rotatingPiece2-rotary2button{
+      -webkit-transform: translate(36.337px,4.691px );
+          -ms-transform: translate(36.337px,4.691px );
+              transform: translate(36.337px,4.691px )
+   }
+   
+   
+   
+   #text-rotary2button{
+      position: relative;
+      pointer-events: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+   
+      font-size: 2vw;
+      color: #ffffff;
+      font-family: 'Roboto';
+      font-weight: 900;
+   
+   
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 100%;
+      width: 100%;
+   }
+   
+   
+   
+   .clickAnimation-rotary2button:active{
+      -webkit-transform: scale(1.03);
+          -ms-transform: scale(1.03);
+              transform: scale(1.03);
+     } 
+   
+   
+   
+   
+   .hoverAnimation-rotary2button:hover #rotatingPiece1-rotary2button{
+       
+      -webkit-animation-name:Rotation2x-rotary2button ;
+       
+              animation-name:Rotation2x-rotary2button ;
+      -webkit-animation-duration: 3s ;
+              animation-duration: 3s ;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+   }
+   
+   
+   @-webkit-keyframes Rotation2x-rotary2button {
+      0%{-webkit-transform: translate(3.691px,4.691px ) rotate(0deg);transform: translate(3.691px,4.691px ) rotate(0deg);}
+       100%{-webkit-transform: translate(3.691px,4.691px ) rotate(-360deg);transform: translate(3.691px,4.691px ) rotate(-360deg)}
+   }
+   
+   
+   @keyframes Rotation2x-rotary2button {
+      0%{-webkit-transform: translate(3.691px,4.691px ) rotate(0deg);transform: translate(3.691px,4.691px ) rotate(0deg);}
+       100%{-webkit-transform: translate(3.691px,4.691px ) rotate(-360deg);transform: translate(3.691px,4.691px ) rotate(-360deg)}
+   }
+   
+   
+   
+   
+   
+   .hoverAnimation-rotary2button:hover #rotatingPiece2-rotary2button{
+       
+      -webkit-animation-name:Rotation3x-rotary2button ;
+       
+              animation-name:Rotation3x-rotary2button ;
+      -webkit-animation-duration: 3s ;
+              animation-duration: 3s ;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+   }
+   
+   @-webkit-keyframes Rotation3x-rotary2button {
+      0%{-webkit-transform: translate(37.337px,4.691px ) rotate(0deg);transform: translate(37.337px,4.691px ) rotate(0deg);}
+       100%{-webkit-transform: translate(37.337px,4.691px ) rotate(360deg);transform: translate(37.337px,4.691px ) rotate(360deg)}
+   }
+   
+   @keyframes Rotation3x-rotary2button {
+      0%{-webkit-transform: translate(37.337px,4.691px ) rotate(0deg);transform: translate(37.337px,4.691px ) rotate(0deg);}
+       100%{-webkit-transform: translate(37.337px,4.691px ) rotate(360deg);transform: translate(37.337px,4.691px ) rotate(360deg)}
+   }
+   
+   
+   
+   .initAnimation-rotary2button {
+      -webkit-animation: dash2-rotary2button 2s linear ;
+              animation: dash2-rotary2button 2s linear ;
+     }
+     
+     
+       
+     @-webkit-keyframes dash2-rotary2button {
+       0% {
+           stroke-dasharray: 0 106 106;
+           fill-opacity: 0;
+           
+     }
+       30% {
+           stroke-dasharray: 0 106 106;
+             
+       }
+        90% {
+           stroke-dasharray: 105 106 106;
+           fill-opacity: 0;
+           
+       }100%{
+           fill-opacity: 1;
+       }
+      
+     }
+     
+     
+       
+     @keyframes dash2-rotary2button {
+       0% {
+           stroke-dasharray: 0 106 106;
+           fill-opacity: 0;
+           
+     }
+       30% {
+           stroke-dasharray: 0 106 106;
+             
+       }
+        90% {
+           stroke-dasharray: 105 106 106;
+           fill-opacity: 0;
+           
+       }100%{
+           fill-opacity: 1;
+       }
+      
+     }
+   
+   
+   .initAnimation-rotary2button #text-rotary2button{
+      -webkit-animation-name:animateText-rotary2button ;
+              animation-name:animateText-rotary2button ;
+      -webkit-animation-duration: 2.3s ;
+              animation-duration: 2.3s ;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+    
+    }
+    
+    @-webkit-keyframes animateText-rotary2button{
+          
+      0% {
+         
+        opacity: 0;
+      }
+          
+      91% {
+        opacity: 0;
+           
+            
+        }
+    
+      100%{
+        opacity: 1;
+      }
+    }
+    
+    @keyframes animateText-rotary2button{
+          
+      0% {
+         
+        opacity: 0;
+      }
+          
+      91% {
+        opacity: 0;
+           
+            
+        }
+    
+      100%{
+        opacity: 1;
+      }
+    }

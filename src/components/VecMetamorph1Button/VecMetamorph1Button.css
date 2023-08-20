@@ -1,0 +1,157 @@
+
+#metamorph1button{
+    background-color: transparent;
+    border-style: none;
+    overflow: visible;
+    position: relative;
+    padding: 0;
+    cursor:pointer
+  }
+  
+  
+  
+  
+  #svgmetamorph1button{
+  
+   height: 100%;
+   width: 100%;
+   display: block;
+  
+   overflow: visible;
+  }
+  
+  
+  
+  #text-metamorph1button{
+    pointer-events: none;
+    position: relative;
+  
+    display: -webkit-box;
+  
+    display: -ms-flexbox;
+  
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  
+    font-size: 2vw;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 900;
+  
+  
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   height: 100%;
+   width: 100%;
+  }
+  
+  
+  .clickAnimation-metamorph1button:active{
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
+   } 
+  
+  
+  
+  
+  .initAnimation-metamorph1button {
+  -webkit-animation: dash2-metamorph1button 3s linear ;
+         animation: dash2-metamorph1button 3s linear ;
+  }
+  
+  
+  
+  @-webkit-keyframes dash2-metamorph1button {
+  0% {
+      stroke-dasharray: 0 106 106;
+      fill-opacity: 0;
+      
+  }
+  30% {
+      stroke-dasharray: 0 106 106;
+        
+  }
+   90% {
+      stroke-dasharray: 105 106 106;
+      fill-opacity: 0;
+      
+  }100%{
+      fill-opacity: 1;
+  }
+  
+  }
+  
+  
+  
+  @keyframes dash2-metamorph1button {
+  0% {
+      stroke-dasharray: 0 106 106;
+      fill-opacity: 0;
+      
+  }
+  30% {
+      stroke-dasharray: 0 106 106;
+        
+  }
+   90% {
+      stroke-dasharray: 105 106 106;
+      fill-opacity: 0;
+      
+  }100%{
+      fill-opacity: 1;
+  }
+  
+  }
+  
+  .initAnimation-metamorph1button #text-metamorph1button{
+   -webkit-animation-name:animateText-metamorph1button ;
+           animation-name:animateText-metamorph1button ;
+   -webkit-animation-duration: 3.3s ;
+           animation-duration: 3.3s ;
+   -webkit-animation-timing-function: linear;
+           animation-timing-function: linear;
+  
+  }
+  
+  @-webkit-keyframes animateText-metamorph1button{
+       
+   0% {
+      
+     opacity: 0;
+   }
+       
+   91% {
+     opacity: 0;
+        
+         
+     }
+  
+   100%{
+     opacity: 1;
+   }
+  }
+  
+  @keyframes animateText-metamorph1button{
+       
+   0% {
+      
+     opacity: 0;
+   }
+       
+   91% {
+     opacity: 0;
+        
+         
+     }
+  
+   100%{
+     opacity: 1;
+   }
+  }

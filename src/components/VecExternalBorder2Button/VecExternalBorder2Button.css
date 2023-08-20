@@ -1,0 +1,199 @@
+
+#externalborder2button{
+  background-color: transparent;
+  border-style: none;
+  overflow: visible;
+  position: relative;
+  padding: 0; 
+}
+
+
+#svgExternalborder2button{
+
+ height: 100%;
+ width: 100%;
+ display: block;
+
+ overflow: visible;
+
+ 
+}
+
+.clickAnimation-externalborder2button:active{
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+ } 
+
+#visibleArea{
+  cursor:pointer
+
+}
+
+#text-externalborder2button{
+  pointer-events: none;
+  position: relative;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  font-size: 2vw;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 900;
+
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+ 
+
+
+
+
+
+  .hoverAnimation-externalborder2button:hover {
+
+      -webkit-animation: dash-externalborder2button 1.5s linear forwards;
+
+              animation: dash-externalborder2button 1.5s linear forwards;
+    }
+    
+    @-webkit-keyframes dash-externalborder2button {
+      0% {
+          stroke-dasharray: 1%;
+      }50%{
+          stroke-dasharray: 6%;
+      }
+       100% {
+          stroke-dasharray: 1%;
+      }
+    }
+    
+    @keyframes dash-externalborder2button {
+      0% {
+          stroke-dasharray: 1%;
+      }50%{
+          stroke-dasharray: 6%;
+      }
+       100% {
+          stroke-dasharray: 1%;
+      }
+    }
+  
+
+    
+
+
+
+.initAnimation-externalborder2button use{
+
+  -webkit-animation: dash2-externalborder2button 4s linear ;
+
+          animation: dash2-externalborder2button 4s linear ;
+}
+
+
+  
+@-webkit-keyframes dash2-externalborder2button {
+  0% {
+      stroke-dasharray: 0 106 106;
+      fill-opacity: 0;
+      
+}
+  30% {
+      stroke-dasharray: 0 106 106;
+        
+  }
+   90% {
+      stroke-dasharray: 105 106 106;
+      fill-opacity: 0;
+      
+  }100%{
+      fill-opacity: 1;
+  }
+ 
+}
+
+
+  
+@keyframes dash2-externalborder2button {
+  0% {
+      stroke-dasharray: 0 106 106;
+      fill-opacity: 0;
+      
+}
+  30% {
+      stroke-dasharray: 0 106 106;
+        
+  }
+   90% {
+      stroke-dasharray: 105 106 106;
+      fill-opacity: 0;
+      
+  }100%{
+      fill-opacity: 1;
+  }
+ 
+}
+
+
+
+.initAnimation-text{
+  -webkit-animation-name:animateText-externalborder2button ;
+          animation-name:animateText-externalborder2button ;
+  -webkit-animation-duration: 4.3s ;
+          animation-duration: 4.3s ;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes animateText-externalborder2button{
+      
+  0% {
+     
+    opacity: 0;
+  }
+      
+  91% {
+    opacity: 0;
+       
+        
+    }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes animateText-externalborder2button{
+      
+  0% {
+     
+    opacity: 0;
+  }
+      
+  91% {
+    opacity: 0;
+       
+        
+    }
+
+  100%{
+    opacity: 1;
+  }
+}

@@ -1,0 +1,619 @@
+
+#broken1button {
+    display: block;
+background-color: transparent;
+border-style: none;
+overflow: visible;
+position: relative;
+padding: 0;
+}
+
+
+#broken1button:hover  {
+cursor:pointer
+
+}
+
+
+
+
+
+#svgbroken1button{
+
+height: 100%;
+width: 100%;
+display: block;
+
+overflow: visible;
+}
+
+
+
+
+
+#groupOfPieces-broken1button{
+-webkit-transform:translate(-4.1796875px,-2.3026956px);
+-ms-transform:translate(-4.1796875px,-2.3026956px);
+    transform:translate(-4.1796875px,-2.3026956px);
+}
+
+
+
+
+
+.piece-broken1button path{
+-webkit-transition: -webkit-transform 1s;
+transition: -webkit-transform 1s;
+-o-transition: transform 1s;
+transition: transform 1s;
+transition: transform 1s, -webkit-transform 1s;
+
+}
+
+
+
+#text-broken1button{
+pointer-events: none;
+position: relative;
+
+display: -webkit-box;
+
+display: -ms-flexbox;
+
+display: flex;
+-webkit-box-pack: center;
+   -ms-flex-pack: center;
+       justify-content: center;
+-webkit-box-align: center;
+   -ms-flex-align: center;
+       align-items: center;
+
+font-size: 2vw;
+color: #ffffff;
+font-family: 'Roboto';
+font-weight: 900;
+
+position: absolute;
+top: 0%;
+left: 0%;
+height: 100%;
+width: 100%;
+
+}
+
+
+.clickAnimation-broken1button:active{
+-webkit-transform: scale(1.03);
+   -ms-transform: scale(1.03);
+       transform: scale(1.03);
+} 
+
+
+
+
+.initAnimation-broken1button  #piece1-broken1button{
+
+-webkit-animation-name:animatePiece1-broken1button ;
+
+      animation-name:animatePiece1-broken1button ;
+-webkit-animation-duration: 2s ;
+      animation-duration: 2s ;
+-webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+}
+
+@-webkit-keyframes animatePiece1-broken1button{
+  
+0% {
+  -webkit-transform: translate(-6.5%, -8%) ;
+          transform: translate(-6.5%, -8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(-3%, -2%);
+         transform: translate(-3%, -2%);
+ fill-opacity: 1;
+ 
+}
+
+100%{
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+  fill-opacity: 1;
+}
+}
+
+@keyframes animatePiece1-broken1button{
+  
+0% {
+  -webkit-transform: translate(-6.5%, -8%) ;
+          transform: translate(-6.5%, -8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(-3%, -2%);
+         transform: translate(-3%, -2%);
+ fill-opacity: 1;
+ 
+}
+
+100%{
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+  fill-opacity: 1;
+}
+} 
+
+
+.hoverAnimation-broken1button:hover   #piece1-broken1button{
+
+-webkit-transform: translate(-1.5%);
+
+  -ms-transform: translate(-1.5%);
+
+      transform: translate(-1.5%) 
+
+}
+
+
+
+
+
+.initAnimation-broken1button #piece2-broken1button{
+
+-webkit-animation-name:animatePiece2-broken1button ;
+
+      animation-name:animatePiece2-broken1button ;
+-webkit-animation-duration: 2s ;
+      animation-duration: 2s ;
+-webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+}
+
+@-webkit-keyframes animatePiece2-broken1button{
+  
+0% {
+  -webkit-transform: translate(-8.5%, 8%) ;
+          transform: translate(-8.5%, 8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(-2%, 2%);
+         transform: translate(-2%, 2%);
+ fill-opacity: 1;
+ 
+}
+
+100%{
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+  fill-opacity: 1;
+}
+}
+
+@keyframes animatePiece2-broken1button{
+  
+0% {
+  -webkit-transform: translate(-8.5%, 8%) ;
+          transform: translate(-8.5%, 8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(-2%, 2%);
+         transform: translate(-2%, 2%);
+ fill-opacity: 1;
+ 
+}
+
+100%{
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+  fill-opacity: 1;
+}
+} 
+
+
+.hoverAnimation-broken1button:hover   #piece2-broken1button{
+-webkit-transform: translate(-1%,1.5%);
+   -ms-transform: translate(-1%,1.5%);
+       transform: translate(-1%,1.5%) 
+
+}
+
+
+
+
+
+.initAnimation-broken1button #piece3-broken1button{
+
+-webkit-animation-name:animatePiece3-broken1button ;
+
+      animation-name:animatePiece3-broken1button ;
+-webkit-animation-duration: 2s ;
+      animation-duration: 2s ;
+-webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+}
+
+@-webkit-keyframes animatePiece3-broken1button{
+  
+0% {
+  -webkit-transform: translate(8.5%, -8%) ;
+          transform: translate(8.5%, -8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(2%, -2%);
+         transform: translate(2%, -2%);
+ fill-opacity: 1;
+ 
+}
+100%{
+-webkit-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+fill-opacity: 1;
+}
+}
+
+@keyframes animatePiece3-broken1button{
+  
+0% {
+  -webkit-transform: translate(8.5%, -8%) ;
+          transform: translate(8.5%, -8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(2%, -2%);
+         transform: translate(2%, -2%);
+ fill-opacity: 1;
+ 
+}
+100%{
+-webkit-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+fill-opacity: 1;
+}
+}
+
+.hoverAnimation-broken1button:hover   #piece3-broken1button{
+-webkit-transform: translate(0%,-1.5%);
+   -ms-transform: translate(0%,-1.5%);
+       transform: translate(0%,-1.5%) 
+
+}
+
+
+
+
+
+.initAnimation-broken1button #piece4-broken1button{
+
+-webkit-animation-name:animatePiece4-broken1button ;
+
+      animation-name:animatePiece4-broken1button ;
+-webkit-animation-duration:2s ;
+      animation-duration:2s ;
+-webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+}
+
+@-webkit-keyframes animatePiece4-broken1button{
+  
+0% {
+  -webkit-transform: translate(6.5%, 6%) ;
+          transform: translate(6.5%, 6%) ;
+  fill-opacity: 0;
+}
+
+60% {
+ -webkit-transform: translate(0%, 0%);
+         transform: translate(0%, 0%);
+ fill-opacity: 1;
+ 
+}
+80% {
+-webkit-transform: translate(2%, 2%);
+      transform: translate(2%, 2%);
+fill-opacity: 1;
+
+}
+  
+100% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+}
+
+@keyframes animatePiece4-broken1button{
+  
+0% {
+  -webkit-transform: translate(6.5%, 6%) ;
+          transform: translate(6.5%, 6%) ;
+  fill-opacity: 0;
+}
+
+60% {
+ -webkit-transform: translate(0%, 0%);
+         transform: translate(0%, 0%);
+ fill-opacity: 1;
+ 
+}
+80% {
+-webkit-transform: translate(2%, 2%);
+      transform: translate(2%, 2%);
+fill-opacity: 1;
+
+}
+  
+100% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+}
+
+
+
+.initAnimation-broken1button #piece5-broken1button{
+
+-webkit-animation-name:animatePiece5-broken1button ;
+
+      animation-name:animatePiece5-broken1button ;
+-webkit-animation-duration: 2s ;
+      animation-duration: 2s ;
+-webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+}
+
+@-webkit-keyframes animatePiece5-broken1button{
+  
+0% {
+  -webkit-transform: translate(8.5%, 8%) ;
+          transform: translate(8.5%, 8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(2%, 2%);
+         transform: translate(2%, 2%);
+ fill-opacity: 1;
+ 
+}
+100%{
+-webkit-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+fill-opacity: 1;
+}
+}
+
+@keyframes animatePiece5-broken1button{
+  
+0% {
+  -webkit-transform: translate(8.5%, 8%) ;
+          transform: translate(8.5%, 8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(2%, 2%);
+         transform: translate(2%, 2%);
+ fill-opacity: 1;
+ 
+}
+100%{
+-webkit-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+fill-opacity: 1;
+}
+}
+
+
+.hoverAnimation-broken1button:hover   #piece5-broken1button{
+-webkit-transform: translate(1%,1.8%);
+   -ms-transform: translate(1%,1.8%);
+       transform: translate(1%,1.8%) 
+
+}
+
+
+
+
+.initAnimation-broken1button #piece6-broken1button{
+
+-webkit-animation-name:animatePiece6-broken1button ;
+
+      animation-name:animatePiece6-broken1button ;
+-webkit-animation-duration: 2s ;
+      animation-duration: 2s ;
+-webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+}
+
+@-webkit-keyframes animatePiece6-broken1button{
+  
+0% {
+  -webkit-transform: translate(8.5%, -8%) ;
+          transform: translate(8.5%, -8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(2%, -2%);
+         transform: translate(2%, -2%);
+ fill-opacity: 1;
+ 
+}
+100%{
+-webkit-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+fill-opacity: 1;
+}
+}
+
+@keyframes animatePiece6-broken1button{
+  
+0% {
+  -webkit-transform: translate(8.5%, -8%) ;
+          transform: translate(8.5%, -8%) ;
+  fill-opacity: 0;
+}
+  
+50% {
+    -webkit-transform: translate(0%, 0%) ;
+            transform: translate(0%, 0%) ;
+    fill-opacity: 1;
+    
+}
+
+60% {
+ -webkit-transform: translate(2%, -2%);
+         transform: translate(2%, -2%);
+ fill-opacity: 1;
+ 
+}
+100%{
+-webkit-transform: translate(0%, 0%);
+      transform: translate(0%, 0%);
+fill-opacity: 1;
+}
+}
+
+.hoverAnimation-broken1button:hover   #piece6-broken1button{
+-webkit-transform: translate(1.2%,-1.2%);
+  -ms-transform: translate(1.2%,-1.2%);
+      transform: translate(1.2%,-1.2%) 
+
+}
+
+
+
+
+
+
+
+.initAnimation-broken1button #text-broken1button{
+
+-webkit-animation-name:animateText-broken1button
+ ;
+
+      animation-name:animateText-broken1button
+       ;
+-webkit-animation-duration: 2.4s ;
+      animation-duration: 2.4s ;
+-webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes animateText-broken1button
+{
+  
+0% {
+ 
+opacity: 0;
+}
+  
+91% {
+opacity: 0;
+   
+    
+}
+
+100%{
+opacity: 1;
+}
+}
+
+@keyframes animateText-broken1button
+{
+  
+0% {
+ 
+opacity: 0;
+}
+  
+91% {
+opacity: 0;
+   
+    
+}
+
+100%{
+opacity: 1;
+}
+}
+
